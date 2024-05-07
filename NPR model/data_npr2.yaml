@@ -1,0 +1,13 @@
+train: E:\6th semester\Artificial Neural Networks\PROJECT\ANPR Model\Number plate recognition.v1i.yolov8/train/images
+val: E:\6th semester\Artificial Neural Networks\PROJECT\ANPR Model\Number plate recognition.v1i.yolov8/valid/images
+test: E:\6th semester\Artificial Neural Networks\PROJECT\ANPR ModelNumber plate recognition.v1i.yolov8/test/images
+
+nc: 1
+names: ['Number Plate']
+
+roboflow:
+  workspace: ada-gnclh
+  project: number-plate-recognition-r7wen
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ada-gnclh/number-plate-recognition-r7wen/dataset/1
